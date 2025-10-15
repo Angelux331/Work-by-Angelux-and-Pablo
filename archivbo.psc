@@ -75,9 +75,9 @@ Proceso Test_Course_Navette
 		Escribir "Nombre: ", nombre
 		Escribir "Edad: ", edad, " años"
 		Escribir "Nivel: ", nivel
-		Escribir "Velocidad final: ", Redon(V, 2), " km/h"
-		Escribir "VO2 simple: ", Redon(VO2_simple, 2), " ml/kg/min"
-		Escribir "VO2 Léger: ", Redon(VO2_leger, 2), " ml/kg/min"
+		Escribir "Velocidad final: ", Redon(V), " km/h"
+		Escribir "VO2 simple: ", Redon(VO2_simple), " ml/kg/min"
+		Escribir "VO2 Léger: ", Redon(VO2_leger), " ml/kg/min"
 		Escribir "Clasificación: ", clasificacion
 		Escribir "---------------------------------------"
 		
@@ -90,7 +90,7 @@ Proceso Test_Course_Navette
 	Escribir "======================================="
 	Escribir "         RESULTADOS DEL GRUPO          "
 	Escribir "======================================="
-	Escribir "Promedio VO2 simple: ", Redon(suma_simple / participantes, 2), " ml/kg/min"
-	Escribir "Promedio VO2 Léger: ", Redon(suma_leger / participantes, 2), " ml/kg/min"
+	Escribir "Promedio VO2 simple: ", Redon(suma_simple / participantes), " ml/kg/min"
+	Escribir "Promedio VO2 Léger: ", Redon(suma_leger / participantes), " ml/kg/min"
 	Escribir "======================================="
 FinProceso
